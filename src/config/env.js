@@ -17,7 +17,7 @@ module.exports = {
   FACEBOOK_APP_SECRET: process.env.FACEBOOK_APP_SECRET,
   FACEBOOK_CALLBACK_URL: process.env.FACEBOOK_CALLBACK_URL || 'http://localhost:5000/api/auth/facebook/callback',
   FACEBOOK_GRAPH_API_VERSION: process.env.FACEBOOK_GRAPH_API_VERSION || 'v24.0',
-  FRONTEND_URL: process.env.FRONTEND_URL || 'http://localhost:5173',
+  FRONTEND_URL: process.env.FRONTEND_URL || 'https://quiet-klepon-e16e88.netlify.app',
   NOMINATIM_USER_AGENT: process.env.NOMINATIM_USER_AGENT,
   SUPER_ADMIN_EMAIL: process.env.SUPER_ADMIN_EMAIL,
   SUPER_ADMIN_PASSWORD: process.env.SUPER_ADMIN_PASSWORD,
