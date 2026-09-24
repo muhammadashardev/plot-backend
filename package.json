@@ -4,8 +4,8 @@
   "description": "Express backend with JWT and environment configuration",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "node api.js && node src/server.js",
+    "dev": "node api.js && nodemon src/server.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
